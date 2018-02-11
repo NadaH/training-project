@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    line-height: 2em;
+    outline: unset;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: #f8ffb1
+}
+.navbar-brand img{
+    margin-top: -16px;
+}
+ul.navbar-right li a.join{
+    color: #fff;
+    border-radius: 10px;
+    background-color: #b8c632;
+}
+nav.navbar-inverse{
+    border-radius: 0px;
+}
+form.navbar-form button.btn.btn-default{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0;
+    margin-left: -8px;
+    color: #fff;
+    background-color: #b8c632;
+    border: 1px solid #b8c632;
+}
